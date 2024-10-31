@@ -1,0 +1,7 @@
+2024-10-31 17:32:58.132 [info] Started local extension host with pid 53581.
+2024-10-31 17:33:00.927 [info] [perf] Render performance baseline is 18ms
+2024-10-31 17:33:37.165 [error] [network] #2: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
+2024-10-31 17:40:07.140 [error] [Extension Host] (node:53581) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-10-31 17:40:10.178 [info] Started local extension host with pid 54998.
+2024-10-31 17:40:12.831 [info] [perf] Render performance baseline is 18ms

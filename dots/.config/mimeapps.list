@@ -1,0 +1,5 @@
+[Added Associations]
+application/pdf=xournalpp.desktop;
+
+[Default Applications]
+application/pdf=xournalpp.desktop;

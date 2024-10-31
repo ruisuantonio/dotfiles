@@ -1,0 +1,55 @@
+2024-10-31 17:55:54.995 [info] [main] Log level: Info
+2024-10-31 17:55:54.995 [info] [main] Validating found git in: "git"
+2024-10-31 17:55:54.995 [info] [main] Using git "2.47.0" from "git"
+2024-10-31 17:55:54.995 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-31 17:55:54.995 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-31 17:55:54.995 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-10-31 17:55:54.995 [info] [Model][openRepository] Opened repository: /home/luis/github/rewards-autofarmer/rewards-autofarmer
+2024-10-31 17:55:54.996 [info] > git rev-parse --show-toplevel [17ms]
+2024-10-31 17:55:54.996 [info] > git config --get commit.template [22ms]
+2024-10-31 17:55:55.017 [info] > git rev-parse --show-toplevel [10ms]
+2024-10-31 17:55:55.022 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-10-31 17:55:55.027 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/luis/github/rewards-autofarmer/rewards-autofarmer/.git/refs/remotes/origin/master'
+2024-10-31 17:55:55.027 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-31 17:55:55.028 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-31 17:55:55.028 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-10-31 17:55:55.040 [info] > git status -z -uall [7ms]
+2024-10-31 17:55:55.041 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-31 17:55:55.058 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-10-31 17:55:55.065 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-10-31 17:55:55.070 [info] > git config --get commit.template [13ms]
+2024-10-31 17:55:55.072 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-10-31 17:55:55.090 [info] > git merge-base refs/heads/master refs/remotes/origin/master [13ms]
+2024-10-31 17:55:55.102 [info] > git diff --name-status -z --diff-filter=ADMR aecd6c0806055dab1d769ba8ccb0aa2ebee3f1db...refs/remotes/origin/master [6ms]
+2024-10-31 17:55:55.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-10-31 17:55:55.137 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/luis/github/rewards-autofarmer/rewards-autofarmer/.git/refs/remotes/origin/master'
+2024-10-31 17:55:55.140 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-10-31 17:55:55.153 [info] > git status -z -uall [7ms]
+2024-10-31 17:55:55.153 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-31 17:55:55.466 [info] > git show --textconv :main.py [5ms]
+2024-10-31 17:55:55.468 [info] > git ls-files --stage -- /home/luis/github/rewards-autofarmer/rewards-autofarmer/main.py [2ms]
+2024-10-31 17:55:55.472 [info] > git cat-file -s b7f2247c8460c0cea57cd8ef4f8c99771a886ace [1ms]
+2024-10-31 17:55:55.504 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-31 17:55:55.900 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [8ms]
+2024-10-31 17:55:56.436 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-31 17:56:13.497 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [8ms]
+2024-10-31 17:56:46.500 [info] [main] Log level: Info
+2024-10-31 17:56:46.501 [info] [main] Validating found git in: "git"
+2024-10-31 17:56:46.501 [info] [main] Using git "2.47.0" from "git"
+2024-10-31 17:56:46.501 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-31 17:56:46.501 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-31 17:56:46.501 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-31 17:56:46.507 [info] > git rev-parse --show-toplevel [0ms]
+2024-10-31 17:56:46.507 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-31 17:56:46.507 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-31 17:56:46.622 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-31 17:56:46.622 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-31 17:56:47.094 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-31 17:56:47.094 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-31 17:57:16.528 [info] [main] Log level: Info
+2024-10-31 17:57:16.528 [info] [main] Validating found git in: "git"
+2024-10-31 17:57:16.528 [info] [main] Using git "2.47.0" from "git"
+2024-10-31 17:57:16.528 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-31 17:57:16.528 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-31 17:57:16.528 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-31 17:57:16.528 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

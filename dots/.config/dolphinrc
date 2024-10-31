@@ -1,0 +1,15 @@
+[ExtractDialog]
+1920x1080 screen: Window-Maximized=true
+DirHistory[$e]=$HOME/Downloads/rewards-bot/
+
+[General]
+Version=202
+ViewPropsTimestamp=2024,10,27,16,55,41.097
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
